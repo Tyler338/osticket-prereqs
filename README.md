@@ -47,9 +47,26 @@ Next, create a second VM inside the already excisting Resource Group "OSTICKET".
 </p>
 <p>
 Now that this is installed lets [download](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) the installations files needed for osTicket and HeidiSQL.
-<img src="https://i.imgur.com/MLPnstq.png" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FIQFo0g.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 </p>
 <br />
+
+- From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+<img src="https://i.imgur.com/0qAZLWE.png" alt="Disk Sanitization Steps"/>
+
+- Create the directory C:\PHP
+- From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+- From the Installation Files, download and install VC_redist.x86.exe.
+- From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- Once you have installed MySQL Server you will need to create credentials for the MySQL Server. 
+
+
+<img src="https://i.imgur.com/sX8jxmX.png" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5OMhW4o.png" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dA7bSgp.png" alt="Disk Sanitization Steps"/>
+Open IIS Manager as an Admin, Register the PHP using the PHP folder
+
