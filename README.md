@@ -31,7 +31,7 @@
 <img src="https://i.imgur.com/azKx6SW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First, create a new Resource Group in Microsoft Azure Cloud Service. Name this Resource Group "OSTICKET". Create a virtual machine (VM) on the same page and name it "vmosTicket" or anything you like. Pick a region to host the VM in. Pick Windows 10 in the image section. This will be the operating system your VM will use. For the size section pick one that uses 2 cpu's. Lastly, Click review and create to finialize the Resource group and VM creation.
+First, create a new Resource Group in Microsoft Azure Cloud Service. Name this Resource Group "OSTICKET". Create a virtual machine (VM) on the same page and name it "vmosTicket" or anything you like. Pick a region to host the VM in. Pick Windows 10 in the image section, this will be the operating system your VM will use. For the size section pick one that uses 2 cpu's. Lastly, Click review and create to finialize the Resource group and VM creation.
 </p>
 <br />
 
